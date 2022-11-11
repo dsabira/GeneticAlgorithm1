@@ -14,12 +14,12 @@ public:
     void print();
 
 private:
-    struct Pixel {
+    struct Pixel {//customized structure for storing RGB values of pixel
         int red;
         int blue;
         int green;
     };
-    Pixel* genes;
-    int nGenes;
+    Pixel* genes;//pointer for dynamic array of pixel structs 
+    int nGenes;//size of array
 };
 
